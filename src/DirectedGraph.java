@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// class Edge
 class Edge {
     int startVertex;
     int endVertex;
@@ -14,6 +15,7 @@ class Edge {
 public class DirectedGraph {
     public static void main(String[] args) {
         int vertex = 5;
+        // 2d array for adj matrix
         int[][] matrix = new int[vertex+1][vertex+1];
 
         ArrayList<Edge> edgeList = new ArrayList<Edge>();
